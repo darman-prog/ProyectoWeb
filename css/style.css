@@ -1,1 +1,206 @@
 @import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: var(--color-ternary);
+}
+
+header{
+    color: var(--color-primary);
+    margin-left: 3em;
+}
+
+.main-title{
+    color: var(--color-primary);
+    display: flex;
+
+}
+
+.main-text{
+    color: var(--color-secundary);
+}
+
+.main-button{
+    color: var(--color-secundary);
+    background: var(--color-primary);
+    border: transparent;
+    width: 15vh;
+    height: 4vh;
+}
+
+.main-image1{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:40% ;
+ }
+
+
+ .about-title{
+ color: var(--color-primary);
+}
+
+.about-subtitle{
+ color: var(--color-secundary);
+}
+
+.about-text{
+ color: var(--color-secundary);
+}
+
+.about-button{
+  color: var(--color-secundary);
+  background: var(--color-primary);
+  border: transparent;
+  width: 15vh;
+  height: 4vh;
+}
+
+.menu{
+}
+
+div{
+ 
+}
+
+.menu-title{
+    color: var(--color-primary);
+}
+
+.menu-subtitle{
+    color: var(--color-secundary);
+}
+
+
+.menu-item-name{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item-description{
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-item-price{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item1{
+    background:var(--color-quinto) ;
+    width: 40vw;
+    height: 35vh;
+    margin-left: 35%;
+
+}
+.menu-item2{
+    background: var(--color-quinto) ;
+    width: 40vw;
+    margin-left: 35%;
+    
+
+}
+
+.menu-item3{
+    background: var(--color-quinto) ;
+    width: 40vw;
+    margin-left: 35%;
+
+}
+
+
+.menu-item-image1{
+    background: transparent;
+    height: 25vh;
+    width: 30vw;
+
+}
+
+.menu-item-image2{
+    height: 25vh;
+    width: 30vw;
+}
+
+.menu-item-image3{
+    height: 25vh;
+    width: 30vw;
+}
+
+.menu-item-name{
+    color: var(--color-cuarto);
+}
+
+.menu-item-description{
+    color: var(--color-cuarto);
+}
+
+.menu-item-price{
+    color: var(--color-primary);
+}
+
+.service-item-title{
+    color: var(--color-primary);
+}
+
+.service-item-subtitle{
+    color: var(--color-secundary);
+}
+
+.service-item-category{
+    color: var(--color-primary);
+}
+
+.service-item-description{
+    color: var(--color-secundary);
+}
+
+.quality-food{
+    background: var(--color-quinto);
+    width: 30vw;
+    height: 18vh;
+}
+
+.quality-food-title{
+    color: var(--color-ternary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.quality-food-button{
+    color: var(--color-secundary);
+    background: var(--color-primary);
+    border: transparent;
+    width: 15vh;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-left: 20vh;
+}
+
+.menu-links-subtitle {
+    color: var(--color-secundary);
+}
+
+.menu-links-list a{
+    color: var(--color-secundary);
+    text-decoration: none;
+}
+
+.contact-title{
+    color: var(--color-primary);
+}
+
+i{
+    color: white;
+}
