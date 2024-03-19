@@ -5,11 +5,13 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    
 
 }
 
 body{
     background: var(--color-ternary);
+    overflow-x: hidden;
 }
 
 .header {
@@ -37,10 +39,6 @@ body{
     margin-right: 50px;
     position: relative;
     right: 15vh;
-}
-
-.header-sections li:last-child {
-    margin-right: 0;
 }
 
 .header-sections a {
@@ -99,22 +97,25 @@ body{
 
     .header-sections a{
         font-size: 4.5vw;
+        margin-left: 65vw;
     }
 
-    .header {
+    .header-sections.visible {
         opacity: 1;
         visibility: visible;
+        background: var(--color-sexto);
     }
-
+    #abrir,
     .boton_cerrar{
         display: block;
         width: 30vw;
         height: 7vw;
+        font-size: 1em;
         font-family: "Poppins", sans-serif;
-        background: var(--color-primario);
+        background: var(--color-sexto);
         border-radius: 7%;
         border: none;
-        color: var(--color-secundario);
+        color: var(--color-secundary);
         cursor: pointer;
     }
 }
@@ -155,10 +156,10 @@ body{
 .main-image1{
     display: flex;
     justify-content: flex-end;
-    margin-left: 55% ;
+    margin-left: 53% ;
     width: 30vw;
     height: 60vh;
-    margin-top: -50vh;
+    margin-top: -45vh;
 }
 
 
@@ -209,7 +210,7 @@ body{
     flex-direction: column;
     position: relative;
     top: 35vh;
-    right: -55vw;
+    margin-left: 55vw;
 }
 
 .about-title{
@@ -510,7 +511,7 @@ h5 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 35vh;
+    margin-top: 15vh;
     margin-left: 10vw;
     width: 80vw;
     height: 60vh;

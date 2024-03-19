@@ -10,68 +10,74 @@
 <body>
     <header class="header">
         <h3 class="header-title">Foods</h3>
-        <button id="abrir" class="boton_header"><i class='bx bx-menu'></i></button>
-        <ul class="header-sections" >
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contact</a></li>
-            <button id="cerrar" class="boton_cerrar">Cerrar</button>
-        </ul>
-        <script src="js/Menu.js"></script>
+        <button id="abrir" class="boton_header"> <i class='bx bx-menu'></i></button>
+       
+        <nav>
+           <ul id="div" class="header-sections visible" >
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#menu">Menu</a></li>
+             <li><a href="#services">Service</a></li>
+             <li><a href="#menu-links">Contact</a></li>
+             <button id="cerrar" class="boton_cerrar">Cerrar</button>
+         </ul>
+        </nav>
     </header>
-    
-    
-    <main class="main">
-        <div class="div-text">
-            <h1 class="main-title">Full Website</h1>
-            <p class="main-text">Foods the Most precious thing</p>
-            <button class="main-button">Today's Menu</button>
-        </div>
-        <img class="main-image1" src="storage/img/home.png" alt="Foods image">
-        <div id="about"> 
-            <h3 class="about-title">About Us</h3>
-            <h2 class="about-subtitle">We speak the good food language</h2>
-            <p class="about-text">It is a long established fact that a 
-            be distracted by the readable content 
-            looking at its layout. The point of</p>
-            <button class="about-button">Learn More</button>
-        </div>
-        <img class="about-image" src="/storage/img/about.png" alt="About image">   
-    </main>
-    
-    <section id="menu">
-        <article class="menu-banner">
-          <h2>Food Menu</h2>
-          <h3>Fresh taste and great price</h3>
-        </article>
-        <section class="menu-items">
-          <article>
-            <img class="menu-image" src="storage/img/food1.png" alt="Chicken Burger" />
-            <a href="#menu"><img class="menu-element" src="storage/img/menuP.png" /></a>
-            <h4>Chicken Burger</h4>
-            <p>Tasty Food</p>
-            <h5>$12.00</h5>
-          </article>
-          <article>
-            <img class="menu-image" src="storage/img/food2.png" alt="Special Beef Burger" />
-            <a href="#menu"><img class="menu-element" src="storage/img/menuP.png" /></a>
-            <h4>Special Beef Burger</h4>
-            <p>Tasty Food</p>
-            <h5>$14.00</h5>
-          </article>
-          <article>
-            <img class="menu-image" src="storage/img/food3.png" alt="Chicken Fry Pack" />
-            <a href="#menu"><img class="menu-element" src="storage/img/menuP.png" /></a>
-            <h4>Chicken Fry Pack</h4>
-            <p>Tasty Food</p>
-            <h5>$18.00</h5>
-          </article>
-        </section>
-      </section>
 
-    <section id="services">
+    <script src="js/Menu.js"></script>
+
+  <nav>
+       <main class="main" id="home">
+         <div class="div-text">
+             <h1 class="main-title">Full Website</h1>
+             <p class="main-text">Foods the Most precious thing</p>
+             <button class="main-button">Today's Menu</button>
+         </div> 
+         <img class="main-image1" src="storage/img/home.png" alt="Foods image">
+         <div id="about"> 
+             <h3 class="about-title">About Us</h3>
+             <h2 class="about-subtitle">We speak the good food language</h2>
+             <p class="about-text">It is a long established fact that a 
+             be distracted by the readable content 
+             looking at its layout. The point of</p>
+             <button class="about-button">Learn More</button>
+         </div>
+         <img class="about-image" src="/storage/img/about.png" alt="About image">   
+     </main>
+   </nav>
+   <nav> 
+       <section id="menu">
+         <article class="menu-banner">
+             <h2>Food Menu</h2>
+             <h3>Fresh taste and great price</h3>
+         </article>
+         <section class="menu-items">
+           <article>
+             <img class="menu-image" src="storage/img/food1.png" alt="Chicken Burger" />
+             <a href="#menu"><img class="menu-element" src="storage/img/menuP.png" /></a>
+             <h4>Chicken Burger</h4>
+             <p>Tasty Food</p>
+             <h5>$12.00</h5>
+           </article>
+           <article>
+             <img class="menu-image" src="storage/img/food2.png" alt="Special Beef Burger" />
+             <a href="#menu"><img class="menu-element" src="storage/img/menuP.png" /></a>
+             <h4>Special Beef Burger</h4>
+             <p>Tasty Food</p>
+             <h5>$14.00</h5>
+           </article>
+           <article>
+             <img class="menu-image" src="storage/img/food3.png" alt="Chicken Fry Pack" />
+             <a href="#menu"><img class="menu-element" src="storage/img/menuP.png" /></a>
+             <h4>Chicken Fry Pack</h4>
+             <p>Tasty Food</p>
+             <h5>$18.00</h5>
+           </article>
+         </section>
+       </section>
+    </nav>
+
+    <section  id="services">
             <article class="service-Title"> 
                 <h3>Services</h3>
                 <h1>We provide the best food services</h1>
