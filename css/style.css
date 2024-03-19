@@ -105,6 +105,7 @@ body{
         visibility: visible;
         background: var(--color-sexto);
     }
+    
     #abrir,
     .boton_cerrar{
         display: block;
@@ -112,7 +113,7 @@ body{
         height: 7vw;
         font-size: 1em;
         font-family: "Poppins", sans-serif;
-        background: var(--color-sexto);
+        background: transparent;
         border-radius: 7%;
         border: none;
         color: var(--color-secundary);
